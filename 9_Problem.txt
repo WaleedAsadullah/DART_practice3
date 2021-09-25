@@ -1,0 +1,15 @@
+void main() {
+  var num1 = 6;
+  var num2 = 2;
+  var operation = "/";
+
+  if (operation == "*") {
+    print("The product of ${num1} and ${num2} is ${num1 * num2}");
+  } else if (operation == "+") {
+    print("The Sum of ${num1} and ${num2} is ${num1 + num2}");
+  } else if (operation == "-") {
+    print("Subtract ${num2} from ${num1} is ${num2 - num1}");
+  } else if (operation == "/") {
+    print("${num1} division by ${num2} is ${num1 / num2}");
+  } else {}
+}

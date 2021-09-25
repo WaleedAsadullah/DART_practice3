@@ -1,0 +1,20 @@
+void main() {
+  var a = 79;
+  var j,k;
+  k=0;
+  for (int i = 2; i < a; i++) {
+    j = a % i;
+    if (j != 0) {
+      continue;
+    } else {
+      k=1;
+      print("${a} is not prime");
+      break;
+    }
+    
+  }
+  
+  if(k==0){
+      print("${a} is prime");
+    }
+}
